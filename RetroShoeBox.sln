@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetroShoeBox", "RetroShoeBox\RetroShoeBox.csproj", "{F8CEAC65-17A5-482E-A551-DDC0BE8EFB8C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetroShoeBox.Client", "RetroShoeBox\RetroShoeBox.Client.csproj", "{F8CEAC65-17A5-482E-A551-DDC0BE8EFB8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetroShoeBox.Server", "RetroShoeBox.Server\RetroShoeBox.Server.csproj", "{57C59F1C-8B90-49D3-AF05-CB9E0B4EED59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F8CEAC65-17A5-482E-A551-DDC0BE8EFB8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8CEAC65-17A5-482E-A551-DDC0BE8EFB8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8CEAC65-17A5-482E-A551-DDC0BE8EFB8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57C59F1C-8B90-49D3-AF05-CB9E0B4EED59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57C59F1C-8B90-49D3-AF05-CB9E0B4EED59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57C59F1C-8B90-49D3-AF05-CB9E0B4EED59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57C59F1C-8B90-49D3-AF05-CB9E0B4EED59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
